@@ -5,6 +5,9 @@
 .justifiedText{
     text-align: justify !important;
 }
+.rojoBg {
+    background-color: #c90404 !important;
+}
 
 .fonts2 {
     
@@ -36,6 +39,15 @@
 .inicioDivT {
     height: 40rem;
     background-image: url("/assets/images/bannerSmartInicio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
+
+}
+.inicioDivT2 {
+    height: 40rem;
+    background-image: url("/assets/images/flexo2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +149,7 @@
         margin-top: 5%;
     }
 
-    .inicioDivT {
+    .inicioDivT, .inicioDivT2 {
         height: 15rem;
 
     }
